@@ -95,9 +95,9 @@ html, body {
     display: flex;
     flex-wrap: wrap;
 }
-.menuItem{
+/*.menuItem{
 
-}
+}*/
 .menuItem:not(:last-child){
     margin: 0px 21px 0px 0px;
 }
@@ -127,12 +127,12 @@ html, body {
     margin: -111px 0px 0px 0px;
 }
 /*===========MAIN==================================================================================================================*/
-.mainBlock{
+/*.mainBlock{
  
 }
 .mainBlockContainer{
 
-}
+}*/
 .mainBlockBody{
     padding: 184px 0px 191px 0px;
     position: relative;
@@ -223,13 +223,13 @@ html, body {
 }
 /*===========SERVICES==================================================================================================================*/
 
-.services {
+/*.services {
 }
 .servicesContainer {
 }
 .servicesBody {
 
-}
+}*/
 @media(min-width: 670px){
     .servicesBody{
         display: flex;
@@ -267,9 +267,9 @@ html, body {
         padding: 25px;
     }
 }
-.itemService {
+/*.itemService {
 
-}
+}*/
 .itemServiceGreen{
     background-color: #0D5C63;
 }
@@ -282,8 +282,8 @@ html, body {
 .itemService > *:not(:last-child){
     margin: 0px 0px 10px 0px;
 }
-.itemServiceIcon {
-}
+/*.itemServiceIcon {
+}*/
 .itemServiceTitle {
     font-weight: 700;
     font-size: 24px;
