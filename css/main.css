@@ -100,7 +100,7 @@ html, body {
     font-weight: 700;
 }
 .headerMenu{
-    margin: 0px 0px 0px 450px;
+    margin: 0px 0px 0px 620px;
 }
 @media(max-width: 926px){
     .headerMenu{
