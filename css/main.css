@@ -61,6 +61,27 @@ html, body {
     padding: 0 15px;
     box-sizing: content-box;
 }
+/*===========PAGE==================================================================================================================*/
+.page{
+    flex: 1 1 auto;
+    position: relative;
+    z-index: 2;
+}
+.pageMainBlock{
+    position: relative;
+}
+.pageServices {
+    color: black;
+    position: relative;
+    z-index: 2;
+    margin: -111px 0px 0px 0px;
+}
+.pageAdvantage:not(:last-child){
+    margin: 0px 0px 10px 0px
+}
+.pageSubscribe {
+
+}
 /*===========HEADER==================================================================================================================*/
 .header{
     position: absolute;
@@ -114,24 +135,6 @@ html, body {
         font-size: 16px;
     }
 }
-/*===========PAGE==================================================================================================================*/
-.page{
-    flex: 1 1 auto;
-    position: relative;
-    z-index: 2;
-}
-.pageMainBlock{
-    position: relative;
-}
-.pageServices {
-    color: black;
-    position: relative;
-    z-index: 2;
-    margin: -111px 0px 0px 0px;
-}
-.pageAdvantage {
-
-}
 /*===========MAIN==================================================================================================================*/
 .mainBlock{
  
@@ -177,6 +180,7 @@ html, body {
 .mainBlockButtons{
     display: inline-flex;
     flex-wrap: wrap;
+    width:100%;
 }
 .button{
     border-radius: 37px;
@@ -385,6 +389,81 @@ html, body {
     letter-spacing: 0.1px;
     font-size: 16px;
     line-height: 150%;
+}
+/*===========SUBSCRIBE==================================================================================================================*/
+.subscribe {
+}
+.subscribeContainer {
+}
+.subscribeBody {
+    padding: 30px 50px;
+    align-items: center;
+    background: #17213c;
+    border-radius: 2px;
+}
+@media (min-width: 1070px){
+    .subscribeBody{
+        margin: 0px 30px;
+    }
+}
+.subscribeTitle {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+@media (max-width: 810px){
+    .subscribeTitle{
+        margin: 0px 0px 20px 0px;
+    }
+    .subscribeBody{
+        margin: 0px -15px;
+        padding: 20px 15px;
+    }
+}
+@media (min-width: 810px){
+    .subscribeTitle{
+        max-width: 266px;
+    }
+    .subscribeBody{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.subscribeForm {
+    flex: 0 1 50%;
+    display: flex;
+    align-items: center;
+}
+.subscribeInput {
+    width: 100%;
+    flex: auto;
+    min-height: 58px;
+    padding: 0px 20px;
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px 0px 0px 5px;
+    color: #737373;
+    border-right: 0;
+}
+.subscribeInput:focus{
+    color:black;
+}
+.subscribeButton {
+    background: #ff7b47;
+    border: 1px solid #e6e6e6;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    min-height: 58px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0px 22px;
+}
+@media (max-width: 810px){
+    .subscribeButton{
+        padding: 0px 15px;
+    }
 }
 /*===========FOOTER==================================================================================================================*/
 .footer{
