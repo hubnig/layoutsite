@@ -490,8 +490,13 @@ html, body {
 .whoweareBody {
     display: flex;
     align-items: flex-start;
-    border: 1px solid #252B42;
-    border-radius: 25px;
+    border: 2px solid #252B42;
+    /* border-radius: 25px; */
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
 @media (max-width:955px){
