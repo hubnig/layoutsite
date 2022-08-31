@@ -95,24 +95,14 @@ html, body {
     display: flex;
     min-height: 104px;
     align-items: center;
+    justify-content: space-between;
 }
 .headerLogo{
     font-size: 24px;
     font-weight: 700;
+    padding: 0px 15px 0px 0px;
 }
-.headerMenu{
-    margin: 0px 0px 0px 450px;
-}
-@media(max-width: 926px){
-    .headerMenu{
-        margin: 0px 0px 0px 150px;
-    }
-}
-@media(max-width: 444px){
-    .headerMenu{
-        margin: 0px 0px 0px 20px;
-    }
-}
+
 .menu{
     padding: 5px 0;
 }
@@ -134,11 +124,7 @@ html, body {
 .menuLink:hover{
     text-decoration: underline;
 }
-@media (max-width: 444px){
-    .menuLink{
-        font-size: 16px;
-    }
-}
+
 /*===========MAIN==================================================================================================================*/
 .mainblock{
     
@@ -369,7 +355,8 @@ html, body {
 .advantageColums {
     padding: 0px 15px;
     margin: 0px 0px 30px 0px;
-    flex: 0 1 25%
+    flex: 0 1 25%;
+
 }
 @media (max-width: 992px){
     .advantageColums{
@@ -387,6 +374,7 @@ html, body {
     text-align: center;
     font-weight: 700;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    height: 100%;
 }
 .adventageItem > *:not(:last-child){
     margin: 0px 0px 10px 0px;
